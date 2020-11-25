@@ -1,7 +1,6 @@
 # REST API 설정
 
 ## 로그인 요청
-### url
 ```
   POST / login
 ```
@@ -19,6 +18,7 @@
     password : "test1234"
   }
 ```
+***
 ### response body
 ```
   { 
