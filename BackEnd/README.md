@@ -6,7 +6,7 @@
 ### request body
 <code>
   {
-    id : string,
+    id : string,<br>
     password : string
   }
 </code>
