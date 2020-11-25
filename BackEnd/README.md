@@ -95,6 +95,7 @@
     email : string
   }
 ```
+
 ### example
 ```
   { 
