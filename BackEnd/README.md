@@ -70,3 +70,37 @@
     state : "success"
   }
 ```
+# 유저 정보조회
+```
+  GET / user
+```
+### request header
+```
+  {
+    Authorization : string
+  }
+```
+### example
+```
+  {
+    Authorization : "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ2ZWxvcGVydC5jb20iLCJleHAiOiIxNDg1MjcwMDAwMDAwIiwiaHR0cHM6Ly92ZWxvcGVydC5jb20vand0X2NsYWltcy9pc19hZG1pbiI6dHJ1ZSwidXNlcklkIjoiMTEwMjgzNzM3MjcxMDIiLCJ1c2VybmFtZSI6InZlbG9wZXJ0In0"
+  }
+```
+### response body
+```
+  { 
+    state : string,
+    name : string,
+    nickname : string,
+    email : string
+  }
+```
+### example
+```
+  { 
+    state : "success",
+    name : "레드빈",
+    nickname : "redbin",
+    email : "test@gmail.com"
+  }
+
