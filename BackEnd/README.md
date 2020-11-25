@@ -61,12 +61,12 @@
 ### response body
 ```
   { 
-    state : "success"
+    state : string
   }
 ```
 ### example
 ```
   {
-    state : success,
+    state : "success"
   }
 ```
