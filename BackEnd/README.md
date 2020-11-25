@@ -4,9 +4,9 @@
 ### url
   POST / login
 ### request body
-<code>
+```
   {
-    id : string,<br>
+    id : string,
     password : string
   }
-</code>
+```
