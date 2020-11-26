@@ -42,6 +42,7 @@
     name : string,
     age : int,
     nickname : string,
+    phone : string,
     email : string,
     address : string
   }
@@ -54,6 +55,7 @@
     name : "홍길동",
     age : 19,
     nickname : "redbin",
+    phone : "01000000000",
     email : "test1234@gmail.com",
     address : "서울특별시 강남구 서초동 한빛 APT 101, 1024"
   }
@@ -92,6 +94,7 @@
     state : string,
     name : string,
     nickname : string,
+    phone : string,
     email : string
   }
 ```
@@ -102,6 +105,7 @@
     state : "success",
     name : "레드빈",
     nickname : "redbin",
+    phone : "01000000000",
     email : "test@gmail.com"
   }
 
