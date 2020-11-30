@@ -108,5 +108,6 @@
     phone : "01000000000",
     email : "test@gmail.com"
   }
+ ```
 # 공지조회
 
